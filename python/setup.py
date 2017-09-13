@@ -28,6 +28,7 @@ modules = [
 			'../src/platform/lemaker/bananapi1.c',
 			'../src/platform/lemaker/bananapim2.c',
 			'../src/platform/xunlong/orangepipc+.c',
+			'../src/platform/friendlyarm/nanopineo.c',
 			'../src/platform/linksprite/pcduino1.c',
 			'../src/platform/raspberrypi/raspberrypi1b1.c',
 			'../src/platform/raspberrypi/raspberrypi1b2.c',

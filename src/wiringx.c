@@ -41,6 +41,7 @@
 #include "platform/lemaker/bananapi1.h"
 #include "platform/lemaker/bananapim2.h"
 #include "platform/xunlong/orangepipc+.h"
+#include "platform/friendlyarm/nanopineo.h"
 #include "platform/solidrun/hummingboard_gate_edge_sdl.h"
 #include "platform/solidrun/hummingboard_gate_edge_dq.h"
 #include "platform/solidrun/hummingboard_base_pro_sdl.h"
@@ -235,6 +236,7 @@ static void wiringXInit(void) {
 	bananapi1Init();
 	bananapiM2Init();
 	orangepipcpInit();
+	nanopineoInit();
 	hummingboardBaseProSDLInit();
 	hummingboardBaseProDQInit();
 	hummingboardGateEdgeSDLInit();
