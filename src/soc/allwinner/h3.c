@@ -17,7 +17,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "a10.h"
+#include "h3.h"
 #include "../../wiringx.h"
 #include "../soc.h"
 
